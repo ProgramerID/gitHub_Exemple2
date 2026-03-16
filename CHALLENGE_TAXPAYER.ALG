@@ -18,15 +18,13 @@
  
  funcao taxOverServices(amount: real):real
  var
- result : real
  inicio
        se amount <> 0 entao
-          result <- amount * 0.15
+          retorne amount * 0.15
        senao
-            result <- 0.00
+            retorne <- 0.00
        fimse
        
-       retorne result
  fimfuncao
  
  
